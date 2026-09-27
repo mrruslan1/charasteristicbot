@@ -1,6 +1,6 @@
 import telebot, psutil, platform, subprocess
 
-bot = telebot.TeleBot("7944853161:AAFzSU_IK7jrjMZEulUA05xO8cycMOUZtAE")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=["my_charasteristics"])
 def pc(message):
